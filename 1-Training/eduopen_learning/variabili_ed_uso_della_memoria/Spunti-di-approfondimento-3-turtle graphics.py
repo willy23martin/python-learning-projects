@@ -26,9 +26,9 @@ left(angolo)
 forward(lato)
 
 # Triangolo:
-gamba_opposta = 100
-gamba_adiacente = 50
-ipotenusa = math.sqrt(gamba_opposta**2 + gamba_adiacente**2)
+lato_opposto = 100
+lato_adiacente = 50
+ipotenusa = math.sqrt(lato_opposto**2 + lato_adiacente**2)
 penup()
 left(135)
 forward(400)
