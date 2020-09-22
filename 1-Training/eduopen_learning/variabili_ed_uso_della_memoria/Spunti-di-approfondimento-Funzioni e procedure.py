@@ -11,3 +11,11 @@ dir(__builtins__)
 print("parola".__contains__("o"))
 print((5**2).__eq__(25))
 print("altezza".__len__())
+
+help(abs)
+
+"""
+Parte 2:
+"""
+print(max(23,45))
+print(max(36,56,47))
