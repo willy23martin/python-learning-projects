@@ -32,7 +32,7 @@ print("upper() ->",complex.upper()) # All characters in Uppercase
 print("lower() ->",complex.lower()) # All characters in Lowecase
 print("swapcase() ->",complex.swapcase()) # Uppercase in lowecase and reverse
 print("title() ->",complex.title()) # The first letter of every word will be in Uppercase
-print("count('character') ->", complex.count("a")) # Returns the count of the letter in the string
+print("count('character') ->", complex.count("o")) # Returns the count of the letter in the string
 print("count('character', init,finish) ->", complex.count("a", 2, 5)) # Returns the count of the letter in the string
 print("find('character') ->", complex.find("comp")) # Returns position
 print("startswith('character') ->", complex.startswith("p")) # Returns boolean
