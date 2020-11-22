@@ -21,3 +21,12 @@ for number in range(0, 101):
         print(f"The number {number} is odd")
 print("Finish 2.")
 print("################# \n")
+
+# Squares
+print("Starting  3.")
+number = 0
+for number in range(0, 101):
+    print(f"The result of the square of {number} is {number**2}")
+print("Finish 2.")
+print("################# \n")
+
