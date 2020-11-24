@@ -3,12 +3,29 @@ app = Flask(__name__) # Application
 
 @app.route('/') # Decortator - main route of the application
 def microservices_api(): # Without parameters
-    a = 'Basic Flask web application'
-    b = int(a) # For debugging using the PIN
+    # Only for debugging purposes
+    # a = 'Basic Flask web application'
+    # b = int(a) # For debugging using the PIN
+
+    # HTTP response JSON Object
     return {
         "status": "200 OK",
         "msg":"Welcome to Microservices API in Flask with Python"
-    } # HTTP response JSON Object
+    }
+
+
+@app.route('/contacts/') # Between /.../ in order to grant the navigation to this endpoint
+def contacts_api():
+    return {
+        "contacts": [
+            {
+                "contact": 1123231
+            },
+            {
+                "contact": 1125262
+            }
+        ]
+    }
 
 # Remove if you use manager.py
 if __name__ == '__main__':
